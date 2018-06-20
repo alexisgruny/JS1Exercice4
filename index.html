@@ -9,15 +9,9 @@
     <label for="lastname">Nom : </label><input type="text" name="lastname" id="lastname"/>
     <label for="firstname">Prénom : </label><input type="text" name="firstname" id="firstname"/>
     <label for="city">Ville : </label><input type="text" name="city" id="city"/>
-    <button  name="submit" id="submit" onclick="test();">Valider</button>
+    <button  name="submit" id="submit" onclick="identity();">Valider</button>
   </form>
+  <script src="script.js"></script>
 </body>
-<script>
-function test() {
-  var x = document.getElementById("lastname").value;
-  var y = document.getElementById("firstname").value;
-  var z = document.getElementById("city").value;
-  alert(x + "\n" + y + "\n" + z);
-}
-</script>
+
 </html>
